@@ -1,0 +1,1 @@
+"C:\Program Files\Python39\python.exe" "Z:\sibroot\repo\personal\stonks\gainers_and_losers.py"
