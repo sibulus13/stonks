@@ -1,1 +1,1 @@
-"C:\Program Files\Python39\python.exe" "Z:\sibroot\repo\personal\stonks\stonkstatistics.py"
+"D:\Pythons\Python37-32\python.exe" "Z:\repo\Stonks\stonks\stonkstatistics.py"
