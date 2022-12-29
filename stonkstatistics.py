@@ -31,7 +31,7 @@ if __name__ == '__main__':
     os.chdir(folder)
     today = datetime.date.today()
     day = datetime.date.weekday(today)
-    weekdays = {0:"monday",1:"tuesday",2:'wednesday',3:'thursday',4:'friday',5:'saturday',6:'sunday'}
+    weekdays = {0:"Monday",1:"Tuesday",2:'Wednesday',3:'Thursday',4:'Friday',5:'Saturday',6:'Sunday'}
     base = "https://www.investcom.com/"
     markets ={'TSX':'toronto','TSX Venture':'cdnx','NEX Board':'nex','CSE':'cse','US AMEX':'amex','US NASDAQ':'nasdaq','US NYSE':'nyse','US OTC':'bulletin'}
     types = {'Most Active':'mv','Top % Gainers':'mpg','Top % Losers':'mpl'}
@@ -48,7 +48,7 @@ if __name__ == '__main__':
                 header.append(market+' '+t)
         
         lines = len(open(fname).readlines())
-        print(lines)
+        # print(lines)
         if lines == 0:
             print('writing header')
             spamwriter.writerow(header)
